@@ -20,6 +20,10 @@ public class Ej1 {
 		num=sc.nextInt();
 		
 		System.out.println(num);
+		
+		//cierre de scanner
+		sc.close();
+		
 	}
 
 }

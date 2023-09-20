@@ -20,6 +20,10 @@ public class Ej2 {
 		edad+=1;
 		
 		System.out.println("La edad que tendra el año que viene es: "+edad);
+		
+		//cierre de scanner
+		sc.close();
+		
 	}
 	
 }
