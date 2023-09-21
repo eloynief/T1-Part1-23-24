@@ -35,7 +35,7 @@ public class Ej6 {
 		suma=num1+num2;
 		resta=num1-num2;
 		multiplicacion=num1*num2;
-		division=num1/num2;
+		division=(double) num1/num2;
 		
 		//muestra en pantalla la suma de los numeros
 		System.out.println("La suma de los numeros es: "+suma);

@@ -17,7 +17,7 @@ public class Ej10 {
 		precio=sc.nextInt();
 		
 		
-		
+		//cerrar scanner
 		sc.close();
 		
 	}
