@@ -11,9 +11,7 @@ public class Ej5 {
 
 		// Int
 		//variable double para el valor pi
-		double radio,pi,longitud,area;
-
-		pi=Math.PI;
+		double radio,longitud,area;
 		
 		// mensaje que te dice que vayas a introducir la primera nota
 		System.out.println("Introduzca el radio de la circunferencia: ");
@@ -21,8 +19,8 @@ public class Ej5 {
 		//comando para intriducir el numero que quiees crear la altura
 		radio = sc.nextInt();
 		
-		longitud=2*pi*radio;
-		area=pi*(radio)^2;
+		longitud=2*Math.PI*radio;
+		area=Math.PI*Math.pow(radio, 2);
 		
 		// mensaje que dice que va a mostrar el area de la circunferencia
 		System.out.println("El area de la circunferencia es: "+longitud);
