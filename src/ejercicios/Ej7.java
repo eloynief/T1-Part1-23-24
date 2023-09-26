@@ -34,6 +34,7 @@ public class Ej7 {
 		//introducimos el numero
 		telefono=sc.nextLong();
 		
+		//te muestra
 		
 		System.out.println("Nombre: "+nombre);
 		

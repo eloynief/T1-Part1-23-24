@@ -9,6 +9,8 @@ public class Ej9 {
 		//scanner que sirve para poner los valores
 		Scanner sc = new Scanner(System.in);
 		
+		final int PESETA_PASAR=166;
+		
 		//variable para las pesetas
 		int peseta;
 		
@@ -22,11 +24,12 @@ public class Ej9 {
 		peseta=sc.nextInt();
 		
 		//el valor del euro es el valor de la peseta/166
-		euro=peseta/166;
+		euro=peseta/PESETA_PASAR;
 		
+		//
 		System.out.println("La cantidad de euros que tienes son: "+euro);
 		
-		
+		//cierre de scanner
 		sc.close();
 		
 	}
